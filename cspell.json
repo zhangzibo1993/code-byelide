@@ -1,0 +1,19 @@
+// cSpell Settings
+{
+  // Version of the setting file.  Always 0.2
+  "version": "0.2",
+  // language - current active spelling language
+  "language": "en",
+  // words - list of words to be always considered correct
+  "words": ["byelide", "creat"],
+  // flagWords - list of words to be always considered incorrect
+  "flagWords": [],
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/lib/**",
+    "**/docs/**",
+    "**/stats.html",
+    "**/detect.ts"
+  ]
+}
